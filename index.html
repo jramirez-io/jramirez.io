@@ -1,123 +1,58 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jose Ramirez &mdash; Cloud & Systems Architect</title>
-  <meta name="description" content="Jose Ramirez (jramirez.io) | Cloud & Systems Architect personal page.">
-  <style>
-    :root {
-      --primary-bg: #15181b;
-      --card-bg: #22252a;
-      --primary-color: #ededed;
-      --accent: #60aaff;
-      --secondary: #989fb1;
-      --border-radius: 18px;
-      --shadow: 0 4px 28px 0 rgba(0,0,0,0.23);
-      --font: 'Inter', system-ui, sans-serif;
-    }
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: var(--primary-bg);
-      color: var(--primary-color);
-      font-family: var(--font);
-      min-height: 100vh;
-      height: 100%;
-      box-sizing: border-box;
-    }
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-    main {
-      background: var(--card-bg);
-      padding: 2.5rem 2.5rem 2rem 2.5rem;
-      border-radius: var(--border-radius);
-      box-shadow: var(--shadow);
-      min-width: 340px;
-      max-width: 420px;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.1rem;
-      font-weight: 700;
-      letter-spacing: 0.07em;
-      color: var(--accent);
-    }
-    h2 {
-      margin-top: 0.7rem;
-      margin-bottom: 1.6rem;
-      font-size: 1.15rem;
-      font-weight: 500;
-      color: var(--secondary);
-      letter-spacing: 0.05em;
-    }
-    .intro {
-      font-size: 1rem;
-      line-height: 1.7;
-      margin-bottom: 2.2rem;
-      color: var(--primary-color);
-      opacity: 0.96;
-    }
-    .links {
-      display: flex;
-      gap: 1.2rem;
-      justify-content: center;
-    }
-    .links a {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5em;
-      text-decoration: none;
-      padding: 0.72em 1.15em;
-      background: none;
-      border: 1.5px solid var(--accent);
-      border-radius: 30px;
-      color: var(--accent);
-      font-weight: 500;
-      font-size: 1em;
-      transition: background 0.2s, color 0.2s, border-color 0.2s;
-      box-sizing: border-box;
-    }
-    .links a:hover, .links a:focus {
-      background: var(--accent);
-      color: #17191c;
-      border-color: var(--accent);
-      outline: none;
-    }
-    @media (max-width: 480px) {
-      main {
-        padding: 1.2rem 0.5rem 1.8rem 0.5rem;
-        min-width: unset;
-      }
-      h1 {
-        font-size: 1.4rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Ramirez — Cloud & Systems Architect</title>
+    <style>
+        :root {
+            --bg: #19181a;
+            --card: #222125;
+            --text: #fcfcfa;
+            --accent: #a9dc76;
+            --sub: #78dce8;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: var(--card);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 500px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+        h1 { margin: 0 0 0.5rem 0; font-size: 2rem; color: var(--accent); }
+        h2 { font-size: 1.1rem; color: var(--sub); font-weight: 400; margin-bottom: 1.5rem; }
+        p { line-height: 1.6; color: #c1c0c0; }
+        .links { margin-top: 2rem; }
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 600;
+        }
+        .links a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-  <main>
-    <h1>Jose Ramirez</h1>
-    <h2>Cloud &amp; Systems Architect</h2>
-    <p class="intro">
-      Arquitecto de sistemas y nube, apasionado de las soluciones eficientes, escalables y seguras.<br>
-      Comprometido con la excelencia, la automatización y la mejora continua.
-    </p>
-    <div class="links">
-      <a href="mailto:jose@jramirez.io" title="Email">
-        <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><rect width="20" height="20" rx="10" fill="#60aaff" fill-opacity="0.13"/><path d="M3.75 6.25A1.25 1.25 0 015 5h10a1.25 1.25 0 011.25 1.25v7.5A1.25 1.25 0 0115 15H5a1.25 1.25 0 01-1.25-1.25v-7.5zm1.667.417L10 10.178l4.583-3.511M5 5.833h10" stroke="#60aaff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Email
-      </a>
-      <a href="https://github.com/jramirez-io" target="_blank" rel="noopener noreferrer" title="GitHub">
-        <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><rect width="20" height="20" rx="10" fill="#60aaff" fill-opacity="0.13"/><path d="M10 14.583a4.583 4.583 0 01-4.582-4.583A4.583 4.583 0 0110 5.417a4.583 4.583 0 014.583 4.583A4.583 4.583 0 0110 14.583zm-.625-2.5v-1.041c-3.333.728-2.5-2.083-2.5-2.083M8.75 11.042c-1.042 0-1.25-.416-1.25-.416m2.5.416c1.042 0 1.25-.416 1.25-.416m-2.5 0c0-.416.416-.625 1.25-.625s1.25.209 1.25.625m-2.5 0v1.041m2.5-1.041v1.041" stroke="#60aaff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        GitHub
-      </a>
+    <div class="card">
+        <h1>Jose Ramirez</h1>
+        <h2>Cloud & Systems Architect</h2>
+        <p>Specialist in high-availability infrastructure, Anycast routing, and enterprise-grade distributed systems architecture.</p>
+        <div class="links">
+            <a href="mailto:jose@jramirez.io">Contact</a>
+            <a href="https://github.com/jramirez-io" target="_blank">GitHub</a>
+        </div>
     </div>
-  </main>
 </body>
 </html>
